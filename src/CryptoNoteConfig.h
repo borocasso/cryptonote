@@ -74,7 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "curka Coin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff000146029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101b9968e5f56c8f633a89c77dcd2fd6865ad4d11b4241a0288560d38e149706e13";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
@@ -108,7 +108,7 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 const std::initializer_list<const char*> SEED_NODES = {
   //"127.0.0.1:17236",
   "10.0.2.15:17236"
-  //"10.0.2.4:17236"
+  "10.0.2.4:17236"
 };
 
 struct CheckpointData {
